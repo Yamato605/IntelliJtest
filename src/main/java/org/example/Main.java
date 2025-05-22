@@ -14,9 +14,11 @@ public class Main {
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 新機能と改善のために最新の PowerShell をインストールしてください!https://aka.ms/PSWindows
+
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git init
 
 Initialized empty Git repository in C:/Users/Owner/Downloads/Student.Management/IntelliJGitHubTest-project/.git/
+
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git remote add origin https://github.com/Yamato605/IntelliJtest.git
 
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git add .
@@ -25,6 +27,7 @@ warning: in the working copy of '.gitignore', LF will be replaced by CRLF the ne
 warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'gradlew', LF will be replaced by CRLF the next time Git touches it
 warning: in the working copy of 'src/main/java/org/example/Main.java', LF will be replaced by CRLF the next time Git touches it
+
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git commit -m "first commit"
 
 [master (root-commit) d3624cc] first commit
@@ -41,10 +44,12 @@ PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git c
  create mode 100644 gradlew.bat
  create mode 100644 settings.gradle
  create mode 100644 src/main/java/org/example/Main.java
+
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git push -u origin main
 
 error: src refspec main does not match any
 error: failed to push some refs to 'https://github.com/Yamato605/IntelliJtest.git'
+
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git branch -m master main
 
 PS C:\Users\Owner\Downloads\Student.Management\IntelliJGitHubTest-project> git push -u origin main
@@ -69,5 +74,7 @@ branch 'main' set up to track 'origin/main'.
 ・プルリクエストの作成と表示されていれば完了。
 
 ・プルリクエストボタンを押して、タイトルとコメントを入力する。
+
+・プログラムに対して、コメントをしたい場合は、プルリクエストから Files Changed を選択してコメントを残す
 
  */
