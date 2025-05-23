@@ -3,9 +3,23 @@ package org.example;
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("こんにちは");
-    String name = "pull";
+    // 挨拶
+    String name = "名前";
     System.out.println(name + " さん、こんにちは！");
+
+    // 三角形で o 表示する(中央揃え)
+    int height = 5;   // 三角形の高さ
+    for (int i = 1; i < height; i++) {
+      for (int j = 0; j < height - i; j++) {  // 前に空白を入れて中央揃えにする
+        System.out.print(" ");
+      }
+      // o を1個出力
+      for (int j = 0; j < i; j++) {
+        System.out.print("o ");
+      }
+      System.out.println(); // 改行
+    }
+
   }
 }
 /*
